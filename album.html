@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>albums</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(200deg,#d8e3ff,#cbddf8,#c2d5fa,#96b6df,#6c91d6,#3b73db);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #5387e7;
+        }
+        .continer {
+            background: rgba(254, 255, 255, 0.479);
+            width: 85%;
+            margin: auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 1);
+        }
+        .album img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #4c75c0;
+            margin: 30px;
+        }
+        .album {
+            background: #cfdcfad0;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+        .album {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        a{
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #5387e7;
+            color: #293449;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #0e56db;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2,1fr);
+            }
+            .album img {
+                height: 120px;
+            }
+        }
+        @media (max-width: 480px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .album img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="continer">
+       <h1>🎶albums🎤</h1> 
+    <div class="grid">
+    <div class="album">
+    <img src="https://i.scdn.co/image/ab67616d0000b2734003b4bfaa44b5fd52b00be2">
+    <p>Karma</p>
+    </div>
+    <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b273271d00bb118d59f422c623f1">
+        <p>Hollow</p>
+    </div>
+    <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b273841695ed5f1525227ac5ddf0">
+        <p>Hop</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOkj5_z2ylyHblssSX2i7WugzxfckGoDZpjg&s">
+        <p>ATE</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGzwfDsv5zGkFEpM9IlbfDXcWtg1YFlmZ3g&s">
+        <p>樂-STAR (ROCK-STAR)</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxCorlL3CP3krolmTAaAc1Z0Vr5D6k9m7K3w&s">
+        <p>★★★★★ (5-STAR)</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3qPhrXTa9nZdGFQuqNLqNcYGKf-RzKPWGQ&s">
+        <p>MAXIDENT</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGpGAGuqPDeTHaMPVKKE_0HQ_4IHxFo0VrQ&s">
+        <p>ODDINARY</p>
+    </div>
+    <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b2731843897a2a72dd5036bbb1fc">
+        <p>NOEASY</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQffrQqtVwqdC55S2LB4BK2mqAj2eUtDmSDXA&s">
+        <p>IN生 (IN LIFE)</p>
+    </div>
+    <div class="album">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfApmx34XPYRFWKT9gJu5ue9LVvAhvVAsSUw&s">
+        <p>GO生 (GO LIVE)</p>
+    </div>
+    <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b27309f2f03627bf9c7b719a35ff">
+        <p>I am  WHO</p>
+    </div>
+    </div>
+    <a href="index.html">-Back to home page</a>
+    <a href="mv.html">mashup video</a>
+    </div>
+</body>
+</html>
